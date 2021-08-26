@@ -24,7 +24,7 @@ def collatz(n:int, original=int, collection=[], highest_number=0, highest_count=
     
     return collatz(n, original, collection, highest_number, highest_count)
 
-number_range = range(800_000, 810_001)
+number_range = range(1, 1_000_000)
 total_time = 0.
 highest_n = (0, 0)
 highest_c = (0, 0)
